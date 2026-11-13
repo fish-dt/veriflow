@@ -1,0 +1,33 @@
+﻿# Secrets and environment
+.env
+.env.*
+!.env.example
+
+# Java
+target/
+*.class
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
